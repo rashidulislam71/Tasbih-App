@@ -1,0 +1,101 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.Bisbillah{
+    font-size: 40px;
+    color: green;
+    border-bottom: 2px solid #b3cccc;
+    padding-block: 20px;
+}
+
+.main-div{
+    margin-top: 40px;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.tasbi-counter-parent{
+    margin: 40px auto;
+    height: 200vh;
+}
+
+.titel-text{
+    text-align: center;
+    width: 1082px;
+    margin: auto;
+    font-size: 16px;
+    font-family: sans-serif;
+    line-height: 55px;
+    
+}
+
+.titel-text p span{
+    color: green;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.content{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.meaning-text{
+    text-align: center;
+    padding-inline: 30px;
+}
+
+.resetall button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    width: 200px;
+    
+}
+
+.content-div{
+    height: 420px;
+    width: 400px;
+    flex-direction: column;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.45) inset;
+    transition: 1s linear; 
+    
+}
+
+.content-div button,
+.resetall button
+{
+    padding: 10px 20px; 
+    border: 1px solid rgb(8, 87, 8);
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 17px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.content-div button:hover,
+.resetall button:hover
+{
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.50) ;
+}
+
+.content-div:hover{
+    box-shadow: 3px 3px 20px rgba(0,0,0,0.50);
+    border-radius: 10px;
+}
+
+.btn{
+    gap: 10px;
+    padding-top: 100px;
+}
+
+
